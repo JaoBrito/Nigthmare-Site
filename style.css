@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: no-repeat url(./assets/background.png) center/cover;
+    height: 100vh;
+}
+
+h1, span{
+    color: #FFC700;
+}
+
+p,a{
+    color: rgba(255, 255, 255, .70);
+}
+
+.play{
+    background: #FFC700;
+    color: black;
+}
