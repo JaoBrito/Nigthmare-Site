@@ -1,11 +1,11 @@
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    background: no-repeat url(./assets/background.png) center/cover;
+    background: no-repeat url(./assets/pesadelo.jpg) center/cover;
+    padding-top: 160px;
     height: 100vh;
 }
 
