@@ -9,14 +9,64 @@ body{
     height: 100vh;
 }
 
-h1, span{
-    color: #FFC700;
+main{
+    position: absolute;
+    left: calc(50% - 714px/2);
+    top: 190px;
+    width: 714px;
+    height: 331px
 }
 
-p,a{
+text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 72px;
+}
+
+h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+h1{
+    font-family: 'Emilys Candy', cursive;
+    font-size: 64px;
+    color: #FFC700;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+span{
+    color: #FFC700;
+    text-align: center;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
     color: rgba(255, 255, 255, .70);
 }
 
+nav{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin: auto;
+    width: 371px;
+}
+a{  
+    padding: 12px 32px 12px 32px;
+    color: rgba(255, 255, 255, .70);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
 .play{
     background: #FFC700;
     color: black;

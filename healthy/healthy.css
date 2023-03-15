@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #EBF1FB;
+}
+
+body{
+    background: url(../assets/healthy.png) no-repeat center/cover;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    gap: 72px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 37%;
+    top: 200px;
+}
+
+text{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Beth Ellen', cursive;
+    font-weight: 400px;
+    font-size: 64px;
+    margin-bottom: 4px;
+}
+
+span{
+    color: #5EEAD4;
+}
+
+h2{
+    font-weight: 500px;
+    font-family: 'Spectral', serif;
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    gap: 24px;
+    text-align: center;
+}
+
+a{
+    padding: 16px 32px;
+    font-family: 'Spectral', serif;
+    font-weight: 600px;
+    font-size: 24px;
+}
+
+.recipes{
+    background: #5EEAD4;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+}
