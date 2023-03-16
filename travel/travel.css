@@ -6,6 +6,7 @@
 
 body{
     height: 100vh;
+    padding: 180px;
     background: url(../assets/travel.jpg) center/cover no-repeat;
 }
 
@@ -27,14 +28,17 @@ span{
     color: rgba(219, 39, 119, 1);
 }
 
-a{
+nav{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
     gap: 16px;
-    width: 409px;   
-    height: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    
+      
     text-decoration: none;
     color: black;
     font-family: 'Cinzel', serif;
