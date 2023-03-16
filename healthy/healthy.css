@@ -66,3 +66,7 @@ a{
     text-decoration: none;
     border-radius: 8px;
 }
+
+.recipes:hover{
+    background: #4fb9a9;
+}

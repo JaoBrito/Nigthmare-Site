@@ -4,7 +4,11 @@
 }
 
 body{
-    background: no-repeat url(./assets/pesadelo.jpg) center/cover;
+    text-align: center;
+    background: url(./assets/pesadelo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 160px;
     height: 100vh;
 }
@@ -70,4 +74,5 @@ a{
 .play{
     background: #FFC700;
     color: black;
+    text-decoration: none;
 }

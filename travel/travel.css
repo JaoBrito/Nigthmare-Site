@@ -29,6 +29,7 @@ span{
 }
 
 nav{
+    margin-top: 72px;
     display: flex;
     flex-direction: row;
     gap: 16px;
